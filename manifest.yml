@@ -1,0 +1,11 @@
+applications:
+  - name: cf-fastapi-hanaml
+    memory: 512M
+    disk_quota: 1G
+    instances: 1
+    buildpacks:
+      - python_buildpack
+    health-check-type: http
+    health-check-http-endpoint: /api/health
+    services:
+      - MyHANAApp-dev

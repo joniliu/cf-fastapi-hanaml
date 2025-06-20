@@ -1,0 +1,6 @@
+fastapi>=0.115.13
+uvicorn[standard]
+python-dotenv>=1.1.0
+hana-ml=>2.25.25061701
+sap-cf-logging=>4.2.7
+cfenv~=0.5.3
